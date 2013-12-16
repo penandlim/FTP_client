@@ -32,7 +32,7 @@ int main(int argc, char ** argv)
     FILE *fp;
     CURLcode res;
     char *url = "https://dl.dropboxusercontent.com/u/15599824/FTP-Server/ip.txt";
-    char outfilename[FILENAME_MAX] = "ip.hookerfucker";
+    char outfilename[FILENAME_MAX] = "ip.HOOKERFUCKER";
     curl = curl_easy_init();
     if (curl) {
         fp = fopen(outfilename,"wb");
@@ -47,7 +47,7 @@ int main(int argc, char ** argv)
     }
 
 	Sleep(1000);
-	std::ifstream publicipstream("ip.hookerfucker");
+	std::ifstream publicipstream("ip.HOOKERFUCKER");
 	getline(publicipstream, publicip);
 	ClearScreen();
 	cout <<"Target : " << publicip << " (Weaboo Library)" << endl;
@@ -92,7 +92,7 @@ int main(int argc, char ** argv)
 		FILE *fp;
 		CURLcode res;
 		char *url = "https://dl.dropboxusercontent.com/u/15599824/FTP-Server/data.txt";
-		char outfilename[FILENAME_MAX] = "data.nigger";
+		char outfilename[FILENAME_MAX] = "data.NIGGER";
 		curl = curl_easy_init();
 		if (curl) 
 		{
@@ -108,7 +108,7 @@ int main(int argc, char ** argv)
 
 		Sleep(1000);
 		ClearScreen();
-		std::ifstream datastream("data.nigger");
+		std::ifstream datastream("data.NIGGER");
 		std::string colorcode, announcement, dataamount;
 		getline(datastream, colorcode);
 		getline(datastream, announcement);
